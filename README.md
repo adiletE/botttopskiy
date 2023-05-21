@@ -90,7 +90,8 @@ Check out the [Budget Manual](https://github.com/n3d1117/chatgpt-telegram-bot/di
 | `IMAGE_SIZE`                       | The DALL·E generated image size. Allowed values: `256x256`, `512x512` or `1024x1024`                                                                                                                                                                   | `512x512`                          |
 | `GROUP_TRIGGER_KEYWORD`            | If set, the bot in group chats will only respond to messages that start with this keyword                                                                                                                                                              | -                                  |
 | `IGNORE_GROUP_TRANSCRIPTIONS`      | If set to true, the bot will not process transcriptions in group chats                                                                                                                                                                                 | `true`                             |
-| `BOT_LANGUAGE`                     | Language of general bot messages. Currently available: `en`, `de`, `ru`, `tr`, `it`, `fi`, `es`, `id`, `nl`, `zh-cn`, `zh-tw`, `vi`, `fa`, `pt-br`.  [Contribute with additional translations](https://github.com/n3d1117/chatgpt-telegram-bot/discussions/219) | `en`                               |
+| `BOT_LANGUAGE`                     | Language of general bot messages. Currently available: `ru`,
+[Contribute with additional translations](https://github.com/n3d1117/chatgpt-telegram-bot/discussions/219) | `ru`                               |
 
 Check out the [official API reference](https://platform.openai.com/docs/api-reference/chat) for more details.
 
@@ -164,3 +165,56 @@ This is a personal project and is not affiliated with OpenAI in any way.
 
 ## License
 This project is released under the terms of the GPL 2.0 license. For more information, see the [LICENSE](LICENSE) file included in the repository.
+pip frezee
+aiogram==2.25.1
+aiohttp==3.8.4
+aiosignal==1.3.1
+anyio==3.6.2
+async-timeout==4.0.2
+attrs==23.1.0
+Babel==2.9.1
+certifi==2023.5.7
+chardet==3.0.4
+charset-normalizer==3.1.0
+colorama==0.4.6
+configure==0.5
+ffmpeg==1.4
+frozenlist==1.3.3
+googletrans==3.0.0
+h11==0.14.0
+h2==3.2.0
+hpack==3.0.0
+hstspreload==2023.1.1
+httpcore==0.17.0
+httpx==0.24.0
+hyperframe==5.2.0
+idna==2.10
+init==0.1.0
+langdetect==1.0.9
+magic-filter==1.0.9
+multidict==6.0.4
+openai==0.27.6
+pathlib==1.0.1
+pydub==0.25.1
+pydub-stubs==0.25.1.0
+pyee==9.1.0
+pyTelegramBotAPI==4.11.0
+python-dotenv==1.0.0
+python-ffmpeg==2.0.4
+python-telegram-bot==20.3
+pytz==2023.3
+PyYAML==6.0
+regex==2023.5.5
+requests==2.30.0
+rfc3986==1.5.0
+six==1.16.0
+sniffio==1.3.0
+telegram==0.0.1
+terminal==0.4.0
+tiktoken==0.4.0
+tqdm==4.65.0
+typing_extensions==4.5.0
+urllib3==2.0.2
+yarl==1.9.2
+
+
